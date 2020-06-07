@@ -12,6 +12,9 @@ public class Pokemon {
     @Column(name = "NAME")
     private String name;
 
+    @Column(name = "POKEDEX_NUMBER")
+    private Integer pokedexNumber;
+
     @Column(name = "TYPE_1")
     private String type1;
 
@@ -40,6 +43,14 @@ public class Pokemon {
 
     public void setId(Integer id) {
         this.id = id;
+    }
+
+    public Integer getPokedexNumber() {
+        return pokedexNumber;
+    }
+
+    public void setPokedexNumber(Integer pokedexNumber) {
+        this.pokedexNumber = pokedexNumber;
     }
 
     public String getName() {
