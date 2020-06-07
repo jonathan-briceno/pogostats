@@ -15,7 +15,7 @@ public class PokemonServiceImpl implements PokemonService {
 
     @Override
     public List<Pokemon> findByPokedexNumber(int pokedexNumber) {
-        List<Pokemon> pokemon = pokemonRepository.findAll();
+        List<Pokemon> pokemon = pokemonRepository.findByPokedexNumber(pokedexNumber);
         System.out.println(pokemon);
         return pokemon;
     }
