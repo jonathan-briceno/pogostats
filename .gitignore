@@ -36,5 +36,8 @@ hs_err_pid*
 .DS_Store
 
 # Maven
-log/
 target/
+*.class
+*.ear
+*.logs
+*.iml
