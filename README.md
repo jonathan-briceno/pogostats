@@ -1,5 +1,5 @@
 # pogostats
-Pokemon Go Stast API 
+Pokemon Go Stats API 
 
 Software Development: Jonathan Briceño  
 Data Recollection: Giovanny Granados 
