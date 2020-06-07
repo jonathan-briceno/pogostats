@@ -1,5 +1,5 @@
 # pogostats
 Pokemon Go Stast API 
 
-Software Development: Jonathan Briceño
+Software Development: Jonathan Briceño  
 Data Recollection: Giovanny Granados 
