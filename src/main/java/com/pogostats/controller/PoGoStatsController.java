@@ -5,13 +5,12 @@ import com.pogostats.entity.Pokemon;
 import com.pogostats.service.PikaService;
 import com.pogostats.service.PokemonService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
+@RequestMapping("/api/pokemon")
 public class PoGoStatsController {
 
     @Autowired
@@ -31,8 +30,3 @@ public class PoGoStatsController {
     }
 
 }
-
-    /*public Employee getEmployeeByID(@PathVariable("id") int id) {
-        return repository.retrieve(id);
-    }*/
-
