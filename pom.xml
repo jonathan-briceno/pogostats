@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.pogostats</groupId>
 	<artifactId>pogostats</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>pogostats</name>
 	<description>PoGO Stats API </description>
 
